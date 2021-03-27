@@ -24,5 +24,5 @@ public class Moving : MonoBehaviour
         float sideForce = Input.GetAxis("Horizontal") * speed;
         _rigidbody.AddForce(sideForce, 0f, 0f);
     }
-    //abc
+
 }
