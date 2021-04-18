@@ -129,9 +129,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  Cubes:
-  - {fileID: 4290277960073543175, guid: 37fd0b3be3acc4ec7aaf68ca35a33dae, type: 3}
-  - {fileID: 1508119060538830233, guid: ba37304210b914ac0b834778c7d73278, type: 3}
-  - {fileID: 2888637261219771067, guid: 04d4d024e1cdf48e3a22e488da77b331, type: 3}
-  - {fileID: 3514805126421090963, guid: f5cc6219e050743ef9e46b8440e90f29, type: 3}
-  - {fileID: 9010428555024137750}
+  spawn: {fileID: 8090339560088204577, guid: 29e18f247907d44129fead133d862adb, type: 3}

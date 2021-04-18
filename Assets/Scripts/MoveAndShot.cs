@@ -7,15 +7,18 @@ public class MoveAndShot : MonoBehaviour
     private Rigidbody _rigidbody;
     // private MoveAndShot _moveAndShot;
     public float speed = 20f;
-    public GameObject[] Cubes;
+    // public GameObject[] Cubes;
     private bool isActiveUpdate = true;
     private bool isActiveCollision = true;
+    private CreateCube _createCube;
+    public GameObject spawn;
     // private bool isActiveOnHit = true;
     // public GameObject cube_2;
 
     void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        _createCube = spawn.GetComponent<CreateCube>();
         // _moveAndShot = GetComponent<MoveAndShot>();
     }
 
@@ -26,15 +29,17 @@ public class MoveAndShot : MonoBehaviour
         {
             if (!isActiveCollision) return;
             isActiveCollision = false;
-            int cube = Random.Range (0, 4);
-            Instantiate(Cubes[cube], new Vector3(0, 0.3f, -7f), Quaternion.identity);
+            _createCube.createCube();
+            // int cube = Random.Range (0, 4);
+            // Instantiate(Cubes[cube], new Vector3(0, 0.3f, -7f), Quaternion.identity);
         }
         else if(collision.collider.tag == "Cube")
         {
             if (!isActiveCollision) return;
             isActiveCollision = false;
-            int cube = Random.Range (0, 4);
-            Instantiate(Cubes[cube], new Vector3(0, 0.3f, -7f), Quaternion.identity);
+            _createCube.createCube();
+            // int cube = Random.Range (0, 4);
+            // Instantiate(Cubes[cube], new Vector3(0, 0.3f, -7f), Quaternion.identity);
         }
         if(collision.gameObject.GetComponent<OnHit>())
         {

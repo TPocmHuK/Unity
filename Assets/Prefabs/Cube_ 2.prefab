@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 3174241118648213692}
   - component: {fileID: 556545324789299879}
   - component: {fileID: 8425057366825008616}
-  - component: {fileID: 5182274129704048069}
-  - component: {fileID: 2269015843102526681}
+  - component: {fileID: 8125215621588389820}
+  - component: {fileID: -195379231176784893}
   m_Layer: 8
   m_Name: Cube_ 2
   m_TagString: Cube
@@ -117,7 +117,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5182274129704048069
+--- !u!114 &8125215621588389820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,13 +130,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  Cubes:
-  - {fileID: 4290277960073543175}
-  - {fileID: 1508119060538830233, guid: ba37304210b914ac0b834778c7d73278, type: 3}
-  - {fileID: 2888637261219771067, guid: 04d4d024e1cdf48e3a22e488da77b331, type: 3}
-  - {fileID: 3514805126421090963, guid: f5cc6219e050743ef9e46b8440e90f29, type: 3}
-  - {fileID: 9010428555024137750, guid: 47f67986f1d3a481fb98c8fee2a91d30, type: 3}
---- !u!114 &2269015843102526681
+  spawn: {fileID: 8090339560088204577, guid: 29e18f247907d44129fead133d862adb, type: 3}
+--- !u!114 &-195379231176784893
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -1,19 +1,33 @@
 ﻿<Properties StartupConfiguration="{FAA271DF-0D6E-151F-8354-B1EDE5043471}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AddForce.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/OnHit.cs">
     <Files>
-      <File FileName="Assets/AddForce.cs" Line="7" Column="20" />
+      <File FileName="Assets/Scripts/OnHit.cs" Line="28" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="2048" expanded="True" selected="True" />
+          <Node name="2048" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="OnHit.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5f4812d3-3c4b-4e18-9c71-13a3b99597e5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ba6cd26c-e3a2-4a9d-bffe-5f0ce808f7fc" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
